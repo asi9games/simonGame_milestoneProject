@@ -5,39 +5,45 @@
   <meta charset="utf-8">
   <title>Simone Game</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
     
   <h1 id="level-title">Press A Key to Start</h1>
+  
+  <div class="wrapper">
+    
   <div class="container">
+    
     <div lass="row">
 
-      <div type="button" id="green"   class="btn">
+      <span><div type="button" id="green"   class="btn pulse">
 
-      </div>
+      </div></span>
 
-      <div type="button" id="red" class="btn">
+      <span><div type="button" id="red" class="btn pulse">
 
-      </div>
+      </div></span>
     </div>
 
     <div class="row">
 
-      <div type="button" id="yellow" class="btn">
+      <span><div type="button" id="yellow" class="btn pulse">
 
-      </div>
-      <div type="button" id="blue" class="btn ">
+      </div></span>
+     <span> <div type="button" id="blue" class="btn pulse ">
 
-      </div>
+      </div></span>
 
     </div>
 
   </div>
+  </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.pulsate.js"></script>
 <script type="text/javascript" src="index.js"></script>
   
 </body>

@@ -1,13 +1,14 @@
 body {
   text-align: center;
   background-color: #011F3F;
+  background: grey !important;
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
+  font-family: 'VT323', monospace;
+  font-size: 4rem;
   margin:  5%;
-  color: #FEF2BF;
+  background-color: #FEF2BF;
 }
 
 .container {
@@ -50,4 +51,35 @@ body {
 .clicked {
   box-shadow: 10 10 30px #dc3545;
   background-color: grey;
+}
+
+
+.wrapper {
+    height:100vh;
+    -webkit-animation: slide 60s linear infinite;
+    background:url(http://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/public/field/field_image_main/Tarantula%20nebula.jpg?itok=xbyxz9lz) repeat;
+    background-position:120% 100%;
+    background-size:cover;
+    animation:animatebg 60s linear infinite;
+}
+
+
+
+
+@keyframes animateEarth {
+    0% {
+        background-position:0 0;
+    }
+    100% {
+        background-position:719px 0;
+    }
+}
+
+@keyframes animatebg {
+    0% {
+        background-position:0 0;
+    }
+    100% {
+        background-position:719px 0;
+    }
 }
