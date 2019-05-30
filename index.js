@@ -80,6 +80,8 @@ function answerCheck(currentLevel) {
 
 
       $("#level-title").text("Game Over, Press Any Key to Restart");
+      
+      startOver();
 
     }
 
